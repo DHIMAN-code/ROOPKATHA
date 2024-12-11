@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap&family=Roboto&display=swap" rel="stylesheet">
+    <title>Best Balloon Decorations - ROOPKATHA</title>
+    <style>
+        body {
+            background-image: url('about-background.jpg'); /* Path to your background image */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            margin: 0;
+            padding: 0 0 200px 0; /* Adds bottom padding for space below content */
+            font-family: 'Roboto', sans-serif;
+        }
+        .logo {
+            border: none; /* Removes any border */
+            outline: none; /* Removes any outline */
+        }
+        .nav-link {
+            color: #000000; /* Black color for better contrast */
+            font-weight: bold; /* Makes the text bolder */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow for visual depth */
+            transition: color 0.3s ease; /* Smooth transition effect */
+        }
+        .nav-link:hover {
+            color: #FF0000; /* Red on hover for a striking effect */
+        }
+        .nav-link.active {
+            border-bottom: 2px solid #000000; /* Black underline for the active link */
+        }
+        .main-content {
+            text-align: left; /* Aligns text to the left */
+            margin-top: 50px; /* Adds top margin */
+            margin-left: 50px; /* Adds left margin */
+        }
+        .main-heading {
+            font-size: 3rem; /* Big font size */
+            font-weight: bold; /* Bold text */
+            color: #000000; /* Black color */
+        }
+        .sub-heading {
+            font-size: 1.5rem; /* Sub-heading font size */
+            font-weight: bold; /* Bold text */
+            color: #000000; /* Black color */
+            margin-top: 20px; /* Adds margin to separate from main heading */
+        }
+        .product-section {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+            padding: 0 50px; /* Adds side padding */
+        }
+        .product-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .product-image {
+            width: 100%;
+            height: auto;
+        }
+        .product-details {
+            padding: 20px;
+        }
+        .product-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .product-price {
+            font-size: 1.2rem;
+            color: #FF0000; /* Red color for sale price */
+        }
+        .product-original-price {
+            text-decoration: line-through;
+            color: grey;
+            margin-left: 10px;
+        }
+        .info-text {
+            margin: 50px 50px 0 50px; /* Adds margin for better spacing */
+            font-size: 1rem;
+            color: #000000; /* Black text color */
+            background-color: rgba(255, 255, 255, 0.8); /* Background with slight transparency */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body style="padding-top: 80px;"></body>
+<header class="text-gray-600 body-font" style="position: fixed; top: 0; width: 100%; z-index: 1000; background-color: white; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+    <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-2 md:mb-0">
+            <img src="lg.jpg" alt="ROOPKATHA Logo" class="logo w-10 h-10"> <!-- Reduced size of the logo -->
+            <span class="italic" style="font-size: 1.2rem;">ROOPKATHA</span> <!-- Reduced font size -->
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="nav-link mr-3" href="index.html" style="font-size: 0.9rem;">HOME</a> <!-- Reduced font size and margin -->
+            <a class="nav-link mr-3" href="about.html" style="font-size: 0.9rem;">ABOUT</a> <!-- Reduced font size and margin -->
+            <a class="nav-link mr-3 active" href="services.html" style="font-size: 0.9rem;">SERVICES</a> <!-- Reduced font size and margin -->
+            <a class="nav-link mr-3" href="CONTACT.html" style="font-size: 0.9rem;">CONTACT</a> <!-- Reduced font size and margin -->
+        </nav>
+        
+    </div>
+</header>
+    <div class="main-content">
+        <div class="main-heading">Flower
+            Decorations in
+            Kolkata</div>
+        <div class="sub-heading">Our flower decoration can add a fairy-tale look to your party venue! We really mean it!</div>
+    </div>
+    <div class="product-section">
+        <!-- Product Card Example Start -->
+        <div class="product-card">
+            <img src="w1.jpg" alt="Baby Shower Decor" class="product-image">
+            <div class="product-details">
+                <div class="product-title">Eternal Blossom Elegance</div>
+                <div class="product-price">₹6499 <span class="product-original-price">₹10399</span></div>
+            </div>
+        </div>
+        <!-- Product Card Example End -->
+        <!-- Repeat the above Product Card for all products, here are a few examples -->
+        <div class="product-card">
+            <img src="w2.jpg" alt="Anniversary Special Decor" class="product-image">
+            <div class="product-details">
+                <div class="product-title">Heavenly Petal Symphony</div>
+                <div class="product-price">₹5589 <span class="product-original-price">₹9099</span></div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="w3.jpg" alt="Birthday Decor" class="product-image">
+            <div class="product-details">
+                <div class="product-title">Romantic Garden Bliss</div>
+                <div class="product-price">₹4999 <span class="product-original-price">₹7999</span></div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="w4.jpg" alt="Wedding Decor" class="product-image">
+            <div class="product-details">
+                <div class="product-title">Enchanted Floral Haven</div>
+                <div class="product-price">₹14999 <span class="product-original-price">₹19999</span></div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="w5.jpg" alt="Party Decor" class="product-image">
+            <div class="product-details">
+                <div class="product-title">Timeless Rose Reverie</div>
+                <div class="product-price">₹7999 <span class="product-original-price">₹9999</span></div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="w6.jpg" alt="Party Decor" class="product-image">
+            <div class="product-details">
+                <div class="product-title">Whimsical Bloom Affair</div>
+                <div class="product-price">₹7999 <span class="product-original-price">₹9999</span></div>
+            </div>
+    </div>
+    <div class="product-card">
+        <img src="w7.jpg" alt="Baby Shower Decor" class="product-image">
+        <div class="product-details">
+            <div class="product-title">Blossom Enchantment Ceremony</div>
+            <div class="product-price">₹6499 <span class="product-original-price">₹10399</span></div>
+        </div>
+    </div>
+    <div class="product-card">
+        <img src="w8.jpg" alt="Baby Shower Decor" class="product-image">
+        <div class="product-details">
+            <div class="product-title">Petals of Love Celebration</div>
+            <div class="product-price">₹6499 <span class="product-original-price">₹10399</span></div>
+        </div>
+    </div>
+    <div class="product-card">
+        <img src="w9.jpg" alt="Baby Shower Decor" class="product-image">
+        <div class="product-details">
+            <div class="product-title">Lavish Floral Romance</div>
+            <div class="product-price">₹6499 <span class="product-original-price">₹10399</span></div>
+        </div>
+    </div>
+    <div class="product-card">
+        <img src="w10.jpg" alt="Baby Shower Decor" class="product-image">
+        <div class="product-details">
+            <div class="product-title">Celestial Bloom Journey</div>
+            <div class="product-price">₹6499 <span class="product-original-price">₹10399</span></div>
+        </div>
+    </div>
+    </div> <!-- Close the product section div -->
+    
+    <div class="footer" style="background-color: #800080; color: #FFFFFF; padding: 20px; text-align: center; font-family: 'Roboto', sans-serif;">
+        <div>
+            <h1 style="font-size: 2rem; font-weight: bold;">ROOPKATHA Favorite Destination For Flower Decoration in Kolkata</h1>
+            <p style="margin-bottom: 20px;">
+                Flowers are the most beautiful and natural décor items that can add a decent look to party venues. Indeed, the task of flower decoration in Kolkata is not an easy task, as getting the supply of the best flowers is quite challenging. ROOPKATHA is one of the most committed flower decorators in Kolkata that has obtained great success in imparting the best flower decoration near Kolkata.
+            </p>
+            
+            <p style="margin-bottom: 20px;">
+                We collaborate with the leading supplier of flowers in Kolkata to get the supply of the best quality flowers. The task is often not easy, so we seek cooperation from our clients. We encourage you to complete the booking formalities well before the actual date of the party so that we can do the needful things to get the venue adorned with the best quality flowers.
+                 Since we are committed to our basics, we can meet the promises!
+            </p>
+            
+            
+
+       <div style="text-align: center; margin-top: 20px;"> <a href="#" style="display: inline-flex; align-items: center; background-color: #ff0066; color: white; padding: 10px 20px; border: none; border-radius: 25px; font-size: 16px; font-weight: bold; text-decoration: none; cursor: pointer;"> 
+        <span style="margin-right: 10px;">📞</span> BOOK A CALL </a> 
+    </div> 
+</div>
+ </div>
+
+ <script>
+    // When the document is loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get the current URL
+        var currentUrl = window.location.href;
+        
+        // Check if the current URL is 'BIRTHDAYpackeges.html'
+        if (currentUrl.indexOf('FLOWERpackeges.html') !== -1) {
+            // Add 'active' class to the 'SERVICES' navigation link
+            document.getElementById('services-link').classList.add('active');
+        }
+    });
+</script>
+
+
+
+   
+
+
+</body>
+</html>

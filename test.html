@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap&family=Roboto&display=swap" rel="stylesheet">
+    <title>Best Balloon Decorations - ROOPKATHA</title>
+    <style>
+        body {
+            background-image: url('about-background.jpg'); /* Path to your background image */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            margin: 0;
+            padding: 0 0 200px 0; /* Adds bottom padding for space below content */
+            font-family: 'Roboto', sans-serif;
+        }
+        .logo {
+            border: none; /* Removes any border */
+            outline: none; /* Removes any outline */
+        }
+        .nav-link {
+            color: #000000; /* Black color for better contrast */
+            font-weight: bold; /* Makes the text bolder */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow for visual depth */
+            transition: color 0.3s ease; /* Smooth transition effect */
+        }
+        .nav-link:hover {
+            color: #FF0000; /* Red on hover for a striking effect */
+        }
+        .nav-link.active {
+            border-bottom: 2px solid #000000; /* Black underline for the active link */
+        }
+        .main-content {
+            text-align: left; /* Aligns text to the left */
+            margin-top: 50px; /* Adds top margin */
+            margin-left: 50px; /* Adds left margin */
+        }
+        .main-heading {
+            font-size: 3rem; /* Big font size */
+            font-weight: bold; /* Bold text */
+            color: #000000; /* Black color */
+        }
+        .sub-heading {
+            font-size: 1.5rem; /* Sub-heading font size */
+            font-weight: bold; /* Bold text */
+            color: #000000; /* Black color */
+            margin-top: 20px; /* Adds margin to separate from main heading */
+        }
+        .contact-info {
+            display: flex; /* Flex container for alignment */
+            align-items: center; /* Align items to the center */
+            gap: 20px; /* Gap between items */
+            margin-top: 20px; /* Adds top margin */
+        }
+        .contact-info button {
+            background-color: pink; /* Button background color */
+            border: none; /* Removes any border */
+            border-radius: 50%; /* Makes the button circular */
+            width: 70px; /* Button width */
+            height: 70px; /* Button height */
+            display: flex; /* Flex container */
+            align-items: center; /* Align items to the center */
+            justify-content: center; /* Center the content */
+        }
+        .contact-info img {
+            width: 40px; /* Icon width */
+            height: 40px; /* Icon height */
+        }
+    </style>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="lg.jpg" alt="ROOPKATHA Logo" class="logo w-12 h-12">
+                <span class="italic">ROOPKATHA</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="nav-link mr-5" href="HOME.html">HOME</a> <!-- Link to the home page -->
+                <a class="nav-link mr-5 active" href="about.html">ABOUT</a> <!-- Add 'active' class -->
+                <a class="nav-link mr-5" href="SERVICES.html">SERVICES</a>
+                <a class="nav-link mr-5" href="CONTACT.html">CONTACT</a>
+            </nav>
+            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">ENROLL NOW
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <div class="container mx-auto flex flex-wrap p-5 flex-row items-start"> <!-- New container div for the main content and image -->
+        <div class="main-content" style="margin-top: 120px; flex: 1;">
+            <div style="flex: 1;">
+                <div class="main-heading" style="font-size: 4rem; font-weight: bold;">Contact</div>
+                <div class="sub-heading" style="font-size: 1.5rem; margin-top: 20px;">
+                    <p>Looking for the best and most experienced décor professionals in Kolkata?</p>
+                    <p>Get in touch with us without the slightest hesitation.</p>
+                    <p>Our team is here to make your event unforgettable.</p>
+                </div>
+                <div class="main-heading" style="font-size: 4rem; font-weight: bold; margin-top: 40px;">Contact Info</div> <!-- Main heading for contact info -->
+                <div class="contact-info" style="margin-top: 40px;"> <!-- Flex container for contact info -->
+                    <button class="contact-button">
+                        <img src="location.webp" alt="Location Icon">
+                    </button>
+                    <div style="font-size: 1.2rem; font-weight: bold; margin-left: 20px;">
+                        <p>EM-4, EM-4/1, EM Block, Sector V,</p>
+                        <p>Bidhannagar, Kolkata, West Bengal 700091</p>
+                    </div>
+                </div>
+                
+                <div class="contact-info" style="margin-top: 40px;"> <!-- Flex container for phone info -->
+                    <button class="contact-button">
+                        <img src="phone.webp" alt="Phone Icon">
+                    </button>
+                    <div style="font-size: 1.2rem; font-weight: bold; margin-left: 20px;">
+                        <p>+91 8539256329</p> <!-- Replace with actual phone number -->
+                    </div>
+                </div>
+                
+                <div class="contact-info" style="margin-top: 40px;"> <!-- Flex container for email info -->
+                    <button class="contact-button">
+                        <img src="email.webp" alt="Email Icon">
+                    </button>
+                    <div style="font-size: 1.2rem; font-weight: bold; margin-left: 20px;">
+                        <p>Your Email Address Here</p> <!-- Replace with actual email address -->
+                    </div>
+                </div>
+                
+                <!-- Contact Form Section -->
+                <div class="contact-form" style="margin-top: 40px;">
+                    <div class="main-heading" style="font-size: 3rem; font-weight: bold; color: #000000;">We are here to Help You</div>
+                    <form action="#" method="post" style="margin-top: 20px;">
+                        <div style="margin-bottom: 20px;">
+                            <input type="text" name="name" placeholder="Name" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <input type="text" name="phone" placeholder="Phone" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <input type="email" name="email" placeholder="Email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <select name="services" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                                <option value="">Select Services</option>
+                                <option value="service1">Service 1</option>
+                                <option value="service2">Service 2</option>
+                                <option value="service3">Service 3</option>
+                            </select>
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <textarea name="message" placeholder="Message" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; height: 100px;"></textarea>
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <input type="text" name="captcha" placeholder="Enter CAPTCHA: W 4 2 J" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                        </div>
+                        <button type="submit" style="background-color: pink; border: none; padding: 10px 20px; border-radius: 5px; color: #fff; font-size: 1.2rem;">SUBMIT</button>
+                    </form>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div style="flex: 1; text-align: right; margin-top: 120px;"> <!-- Flex item for the image -->
+            <img src="slide12.webp" alt="Decoration Image" style="max-width: 100%; height: auto; margin-left: 20px;"> <!-- Replace 'slide12.webp' with the path to your image -->
+        </div>
+    </div>
+</body>
+</html>

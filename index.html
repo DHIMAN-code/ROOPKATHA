@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>ROOPKATHA</title>
+    <style>
+        body {
+            background-image: url('back.jpg'); /* Path to your background image */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            margin: 0;
+            padding: 0 0 200px 0; /* Adds bottom padding for space below content */
+            font-family: 'Dancing Script', cursive;
+        }
+        .logo {
+            width: 50px; /* Sets the logo width */
+            height: auto; /* Auto-adjusts height based on width */
+            border: none; /* Removes any border */
+            outline: none; /* Removes any outline */
+        }
+        .center-text {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem; /* Increased font size */
+            color: #FFD700; /* Golden color */
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-weight: bold; /* Makes the text bold */
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Adds a stronger shadow for depth */
+        }
+        .header-title {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem; /* Increased font size for visibility */
+            color: #FF7F50; /* Coral color for contrast */
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold; /* Makes the text bold */
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Adds a stronger shadow for depth */
+        }
+        .welcome-text {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem; /* Font size for WELCOME TO - */
+            color: #FFD700; /* Golden color */
+            text-align: left; /* Aligns text to the left */
+            margin-left: 150px; /* Moves the text more to the right */
+            font-weight: bold; /* Makes the text bold */
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Adds a stronger shadow for depth */
+        }
+        .nav-link {
+            color: #FFFFFF; /* White color for better contrast */
+            font-weight: bold; /* Makes the text bolder */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow for visual depth */
+            transition: color 0.3s ease; /* Smooth transition effect */
+        }
+        .nav-link:hover {
+            color: #FF0000; /* Red on hover for a striking effect */
+        }
+        .active-link {
+            text-decoration: underline solid #FFD700 4px; /* Thicker, gold underline */
+        }
+        .footer {
+            background-color: #FFFFFF; /* White background for the footer */
+            color: #000000; /* Black text for contrast */
+            padding: 20px;
+            text-align: center;
+            border-top: 2px solid #FF7F50; /* Adds a top border for separation */
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            font-family: Arial, sans-serif; /* Changes the font family to Arial */
+        }
+        .footer h2 {
+            font-size: 2rem; /* Increased font size */
+            font-weight: bold; /* Makes the text bold */
+            margin-bottom: 10px; /* Adds space below the heading */
+        }
+        .footer p {
+            font-size: 1.2rem; /* Increased font size */
+            font-weight: normal; /* Normal font weight */
+            line-height: 1.5; /* Adds line height for better readability */
+        }
+        .container {
+            display: flex;
+            justify-content: space-between; /* Distributes space between items */
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto p-5 flex justify-between items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="lg.jpg" alt="ROOPKATHA Logo" class="logo">
+                <span class="italic ml-3">ROOPKATHA</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a id="home-link" class="nav-link mr-5" href="HOME.html">HOME</a> <!-- Link updated here to refresh the current page -->
+                <a class="nav-link mr-5" href="ABOUT.html">ABOUT</a>
+                <a class="nav-link mr-5" href="SERVICES.html">SERVICES</a>
+                <a class="nav-link mr-5" href="CONTACT.html">CONTACT</a>
+            </nav>
+            
+        </div>
+    </header>
+    <!-- Add the centered text here -->
+    <div class="welcome-text">
+        WELCOME TO -
+    </div>
+    <div class="header-title">
+        ROOPKATHA
+    </div>
+    <div class="center-text">
+        Your Vision Is Our Artistry
+    </div>
+    <!-- Footer Section -->
+    <div class="footer">
+        <!-- Add your content here -->
+        <h2>WHAT WE OFFER</h2>
+        <p>Each event and client is unique, and we believe our services should be as well. As professionals, we plan your event end to end and make it a lifetime Sweet memory.</p>
+    </div>
+
+    <!-- JavaScript to underline the HOME link when on the homepage -->
+    <script>
+        document.getElementById('home-link').classList.add('active-link');
+    </script>
+</body>
+</html>
